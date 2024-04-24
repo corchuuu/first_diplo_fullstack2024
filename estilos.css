@@ -1,14 +1,75 @@
-body{
-    color: rgb(124, 179, 211);
+body {
+    color: rgb(99, 59, 8);
 }
-.neon{color: rgb(3, 1, 0);
+
+.neon {
+    color: rgb(3, 1, 0);
 }
-.asd{color: rgb(48, 73, 214);
+
+.asd {
+    color: rgb(99, 59, 8);
 }
-.asd2{color: rgb(48, 73, 214);
+
+.asd2 {
+    color: rgb(99, 59, 8);
 }
-.as{color: rgb(48, 73, 214);
+
+.as {
+    color: rgb(99, 59, 8);
 }
-.and{color: rgb(7, 7, 71);
+
+.mar {
+    color: rgb(201, 30, 158);
 }
-.mar{color: rgb(118, 30, 201);}
+
+.ox {
+    color: rgba(0, 0, 0, 0);
+}
+
+.ir-arriba {
+    color: rgb(73, 35, 3);
+}
+
+.ir-abajo {
+    color: rgb(73, 35, 3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    background-color: rgba(238, 203, 90, 0.616);
+}
+
+.encabezado {
+    background-image: url(./img_ind/solfondo.jpg);
+    background-color: rgb(212, 121, 17);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    height: 9vh;
+}
+
+.menuSuperior {
+    text-align: center;
+}
+
+.menuSuperior li {
+    display: inline-block;
+}
+
+.menuSuperior a {
+    text-decoration: none;
+    color: rgb(73, 35, 3);
+    font-weight: 700;
+    padding: 3rem;
+    font-size: 2.2rem;
+}
