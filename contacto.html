@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <header id="arriba" class="encabezado">
+        <h1 class="titulo"> Formulario</h1>
+        <h3><a href="#pie" class="ir-abajo"> ir abajo </a></h3>
+        <nav>
+            <ul class="menuSuperior">
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="./animales.html"> Animales</a></li>
+                <li> <a href="autos.html"> Modelos</a></li>
+                <li> <a href="contacto.html"> Contacto</a></li>
+                <li> <a href="#"> Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contacto">
+        <form action="" method="post" class="formulario">
+            <fieldset class="fieldset">
+                <legend class="legend"> Información de contacto</legend>
+                <div>
+                    <label for="nombre" class="label">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" class="input">
+                </div>
+                <div>
+                    <label for="apellido" class="label"> Apellido</label>
+                    <input type="text" name="apellido" id="apellido" class="input" required>
+                </div>
+                <div>
+                    <label for="clave" class="label">Contraseña</label>
+                    <input type="password" name="clave" id="clave" class="input">
+                </div>
+                <div>
+                    <label for="edad" class="label">Edad</label>
+                    <input type="number" name="edad" id="edad" min="13" max="100">
+                </div>
+                <div>
+                    <label for="mensaje" class="label">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" rows="5" cols="20"></textarea>
+                </div>
+                <select name="pais" id="pais">
+                    <option value="A">Argentina</option>
+                    <option value="B">Chile</option>
+                    <option value="C">Uruguay</option>
+                    <option value="D">Bolivia</option>
+                </select>
+                <p for="colores"> Selecciona tu color</p>
+                <div class="form_group">
+                    <label for="rojo"> Rojo</label>
+                    <input type="radio" name="color" value="rojo">
+                    <label for="azul"> Azul</label>
+                    <input type="radio" name="color" value="azul">
+                    <label for="verde"> Verde</label>
+                    <input type="radio" name="color" value="verde">
+                </div>
+                <div class="form_group">
+                    <p for="colores"> Preferencias</p>
+                    <label for="audi">Libros</label>
+                    <input type="checkbox" name="auto" id="audi" value="audi">
+
+                    <label for="audi2">Películas/series</label>
+                    <input type="checkbox" name="auto" id="audi2" value="audi2">
+
+                    <label for="audi3">Audiobooks</label>
+                    <input type="checkbox" name="auto" id="audi3" value="audi3">
+                </div>
+            </fieldset>
+            <input type="submit" value="Registrar" class="submit_enviar">
+        </form>
+    </section>
+</aside>
+<footer id="pie">
+    <div class="neon">
+        <h2>Pie de página</h2>
+    </div>
+    <div><a href="#arriba">
+            <h3 class="ir-arriba">ir arriba</h3>
+        </a></div>
+</footer>
+</body>
+
+</html>
